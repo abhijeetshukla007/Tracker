@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3d323733-61d5-4948-82b7-6419e6d559a7",
+    "data": [
+      {
+        "text": "hows weather today in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48899eb2-db09-42f7-be0d-4b197a4582c5",
+    "data": [
+      {
+        "text": "Weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

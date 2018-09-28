@@ -1,0 +1,103 @@
+[
+  {
+    "value": "meditation",
+    "synonyms": [
+      "meditation",
+      "meditation ",
+      "meditate",
+      "dhyan"
+    ]
+  },
+  {
+    "value": "wake up",
+    "synonyms": [
+      "wake up"
+    ]
+  },
+  {
+    "value": "read book",
+    "synonyms": [
+      "read book",
+      "book reading",
+      "novel reading"
+    ]
+  },
+  {
+    "value": "talk to family",
+    "synonyms": [
+      "talk to family"
+    ]
+  },
+  {
+    "value": "puja",
+    "synonyms": [
+      "puja",
+      "do pooja",
+      "offer puja"
+    ]
+  },
+  {
+    "value": "play games",
+    "synonyms": [
+      "play games",
+      "play football",
+      "play",
+      "games",
+      "play badminton",
+      "play volleyball",
+      "game"
+    ]
+  },
+  {
+    "value": "exercise",
+    "synonyms": [
+      "exercise",
+      "do exercise",
+      "exercise",
+      "regular exercise",
+      "vyayam"
+    ]
+  },
+  {
+    "value": "evening bath",
+    "synonyms": [
+      "evening bath"
+    ]
+  },
+  {
+    "value": "jogging",
+    "synonyms": [
+      "jogging"
+    ]
+  },
+  {
+    "value": "bath",
+    "synonyms": [
+      "bath"
+    ]
+  },
+  {
+    "value": "morning walk",
+    "synonyms": [
+      "morning walk"
+    ]
+  },
+  {
+    "value": "make a call",
+    "synonyms": [
+      "make a call"
+    ]
+  },
+  {
+    "value": "call home",
+    "synonyms": [
+      "call home"
+    ]
+  },
+  {
+    "value": "fill a form",
+    "synonyms": [
+      "fill a form"
+    ]
+  }
+]

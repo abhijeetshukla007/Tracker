@@ -1,0 +1,71 @@
+[
+  {
+    "value": "daily tasks",
+    "synonyms": [
+      "daily tasks",
+      "daily work"
+    ]
+  },
+  {
+    "value": "office tasks",
+    "synonyms": [
+      "office tasks"
+    ]
+  },
+  {
+    "value": "daily routine",
+    "synonyms": [
+      "daily routine"
+    ]
+  },
+  {
+    "value": "myRoutine",
+    "synonyms": [
+      "myRoutine"
+    ]
+  },
+  {
+    "value": "daily list",
+    "synonyms": [
+      "daily list"
+    ]
+  },
+  {
+    "value": "daily to do list",
+    "synonyms": [
+      "daily to do list"
+    ]
+  },
+  {
+    "value": "my list",
+    "synonyms": [
+      "my list",
+      "My lists",
+      "My list "
+    ]
+  },
+  {
+    "value": "my tasks",
+    "synonyms": [
+      "my tasks"
+    ]
+  },
+  {
+    "value": "todo list",
+    "synonyms": [
+      "todo list"
+    ]
+  },
+  {
+    "value": "my list1",
+    "synonyms": [
+      "my list1"
+    ]
+  },
+  {
+    "value": "personal todo list",
+    "synonyms": [
+      "personal todo list"
+    ]
+  }
+]

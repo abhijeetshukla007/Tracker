@@ -1,0 +1,107 @@
+[
+  {
+    "id": "c294b38c-73f8-48e3-a42d-88bc799c8a98",
+    "data": [
+      {
+        "text": "I grow weary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "3908907e-82e3-44b3-a818-a5f676bbc566",
+    "data": [
+      {
+        "text": "I\u0027m exhausted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "f794195c-3d1f-4e55-ab8b-bf47522e15f8",
+    "data": [
+      {
+        "text": "I\u0027m worn out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "19e3881c-f3e7-4481-ac38-c152e933696d",
+    "data": [
+      {
+        "text": "I am tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "c91b5984-47ba-4f43-9be5-b70638641cfc",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "feel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "e7362b18-148c-449e-b6bb-bc1da6ec719e",
+    "data": [
+      {
+        "text": "I\u0027m getting tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "9cded553-f961-4aae-afb7-39738bc2dab9",
+    "data": [
+      {
+        "text": "I\u0027ve overworked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  },
+  {
+    "id": "bb28a8fd-bec1-4a4a-8ade-1df22712e9ca",
+    "data": [
+      {
+        "text": "I\u0027m drained",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1529441576
+  }
+]

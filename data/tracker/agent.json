@@ -1,0 +1,43 @@
+{
+  "description": "Users can ask your app for directions with this agent. They can use general search terms like finding the closest grocery store, or ask how long it will take for them to get to their destination.",
+  "language": "en",
+  "shortDescription": "Ask for directions",
+  "examples": "User: How do I get to Central Park?\nUser: When will we arrive home?\nUser: I need directions to Pittsburgh.\nUser: What\u0027s the fastest way to get to work without taking Center Avenue?\nUser: Find directions to the nearest grocery store.\nUser: What\u0027s the best way to get home from here?\nUser: Get me a route to the San Francisco International airport without using highways?",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "46d89711-c560-44ab-b99d-0edd8bf0ee5b",
+      "e2f2a454-b458-4f0a-a628-481831cd4f67"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Colombo",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v1legacy",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

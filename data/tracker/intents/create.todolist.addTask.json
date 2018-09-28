@@ -1,0 +1,54 @@
+{
+  "id": "721bbcce-9a04-480a-824b-6d7e63a8f2b2",
+  "parentId": "28137651-1880-4c54-b38c-83d99091ef2f",
+  "rootParentId": "28137651-1880-4c54-b38c-83d99091ef2f",
+  "name": "create.todolist.addTask",
+  "auto": true,
+  "contexts": [
+    "createtodolist-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "createtodolist.createtodolist-custom",
+      "affectedContexts": [
+        {
+          "name": "createtodolistaddTask-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b249c42-38e5-4c9a-98de-fa39a8f7e096",
+          "required": true,
+          "dataType": "@todolist-task-name",
+          "name": "todolist-task-name",
+          "value": "$todolist-task-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me task name"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you want add another task to the list."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537628037,
+  "fallbackIntent": false,
+  "events": []
+}

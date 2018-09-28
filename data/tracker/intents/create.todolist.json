@@ -1,0 +1,54 @@
+{
+  "id": "28137651-1880-4c54-b38c-83d99091ef2f",
+  "name": "create.todolist",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "createtodolist",
+      "affectedContexts": [
+        {
+          "name": "createtodolist-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d23ebe84-61a2-4b75-9dcf-179eec9998a5",
+          "required": true,
+          "dataType": "@tolist-name",
+          "name": "tolist-name",
+          "value": "$tolist-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me a name for your todo list."
+            },
+            {
+              "lang": "en",
+              "value": "What shall I name your todo list?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great created your $tolist-name.original . What are the task you would like me to add to the list."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537627888,
+  "fallbackIntent": false,
+  "events": []
+}

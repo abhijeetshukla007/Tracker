@@ -1,0 +1,63 @@
+{
+  "id": "af4ea407-aea5-4a50-b923-cb0aef9f5cb9",
+  "name": "update.todolist",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "addTasktoTodoList",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "66a933f8-54ef-49c9-a5cb-84e0b0244339",
+          "required": true,
+          "dataType": "@todolist-task-name",
+          "name": "todolist-task-name",
+          "value": "$todolist-task-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide the task name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e40f6fb0-ff14-40b3-a9fe-b8f684c35526",
+          "required": true,
+          "dataType": "@tolist-name",
+          "name": "tolist-name",
+          "value": "$tolist-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "In which list shall I add tasks."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Added $todolist-task-name successfully to $tolist-name"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537619352,
+  "fallbackIntent": false,
+  "events": []
+}

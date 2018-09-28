@@ -1,0 +1,33 @@
+{
+  "id": "e2f2a454-b458-4f0a-a628-481831cd4f67",
+  "parentId": "721bbcce-9a04-480a-824b-6d7e63a8f2b2",
+  "rootParentId": "28137651-1880-4c54-b38c-83d99091ef2f",
+  "name": "create.todolist.addTask - no",
+  "auto": true,
+  "contexts": [
+    "createtodolistaddTask-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "createtodolist.createtodolist-custom.createtodolistaddTask-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your todo list is created successfully :)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537628158,
+  "fallbackIntent": false,
+  "events": []
+}
