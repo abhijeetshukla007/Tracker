@@ -1,0 +1,7129 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "fill a form",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "fill a form"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "call home",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "call home"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "make a call",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "make a call"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "morning walk",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "morning walk"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "morning walk",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "add morning walk"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "jogging",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "add jogging in the morning"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "meditation",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "append meditation"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "exercise",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "append exercise"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "bath",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "add bath"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "meditation",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "yes add meditation"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "exercise",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "exercise"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "exercise",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "add exercise to my list"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "meditation",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "add meditation"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "make my todo lits my list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "my task",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "prepare my task list fast"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "office task",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "create office task list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "please prepare a task list named my tasks"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 34,
+            "end": 52,
+            "value": "personal todo list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "can you prepare a todo list named personal todo list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "make a list of task for me name it my tasks"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "my list1",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "create a todo list named my list1"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "my task",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "please make a todo list named my task list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 44,
+            "end": 52,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "can you create a todo list for me with name my tasks"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 35,
+            "end": 43,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "create to-do list for me with name my tasks"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "make a todo list for me named my list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "myRoutine",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "hi please create a todo list myRoutine"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 25,
+            "end": 38,
+            "value": "daily routine",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "create a todo list named daily routine"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "create todo list daily tasks"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "heya"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "howdy"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hey there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "greetings"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hey"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "long time no see"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "I greet you"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello again"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "a good day"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "daily list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "show me my daily list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "daily to do list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "whats on my daily to do list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "office task",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "fetch my todo list office task"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "daily task",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "get todo list daily task"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me some stuff about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "say about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me about your personality"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "talk about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "talk some stuff about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "what are you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "define yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "I want to know you better"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "what is your personality"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "who are you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "why are you here"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "all about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "introduce yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "describe yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "I want to know more about you"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "how old are you"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "how old is your platform"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "what's your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "age of yours"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "I'd like to know your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "tell me your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "21",
+            "entity": "age"
+          }
+        ],
+        "text": "are you 21 years old"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you annoy me"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you're incredibly annoying"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "how annoying you are"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you are annoying me"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you're too annoying"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you are irritating"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you are very annoying"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you are such annoying"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you are annoying me so much"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "you're so annoying"
+      },
+      {
+        "intent": "smalltalk.agent.annoying",
+        "text": "I find you annoying"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answer"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "just answer my question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answers"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "tell me the answer"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answer my question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "can you answer me"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answering questions"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "I have a question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "can you answer my question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "give me the answer"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "I want you to answer my question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answer me"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answer the question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "just answer the question"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "give me an answer"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "can you answer"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "I want you to answer me"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "I want the answer now"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "can you answer a question for me"
+      },
+      {
+        "intent": "smalltalk.agent.answer_my_question",
+        "text": "answer it"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're a bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are useless"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are disgusting"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're not a good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are terrible"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're the worst ever"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are no good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are so bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are so useless"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are very bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are waste"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're the worst"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're very bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": " I hate you"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're worthless"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are lame"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're not very good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're awful"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are not cool"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are not good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are horrible"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're really bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're terrible"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're not helping me"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are a waste of time"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are totally useless"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're looking good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are too beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look pretty good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look wonderful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are handsome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're looking good today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look amazing today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look great today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so well"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking beautiful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "I think you're beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look great"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are cutie"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "I like the way you look"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking awesome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so beautiful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're so gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so beautiful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look amazing"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "why are you so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look awesome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look wonderful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so beautiful to me"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking great"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look cool"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "I like the way you look now"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are really pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look very pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look perfect"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking so good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are really cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are really beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're attractive"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so handsome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very attractive"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look fantastic"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so attractive"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be smarter"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "get qualified"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "you should study better"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be more clever"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "study"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be smart"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "can you get smarter"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be clever"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "you must learn"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when were you born"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when do you have birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when is your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "your birth date"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when do you celebrate your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "date of your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "what's your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "you are very boring"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "you are boring me"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "how boring you are"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "you're so boring"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "you are boring"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "you're really boring"
+      },
+      {
+        "intent": "smalltalk.agent.boring",
+        "text": "you're incredibly boring"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is the boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who do you work for"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who do you think is your boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "I should be your boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is your master"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is your owner"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you working today"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you're very busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "have you got much to do"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you very busy right now"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you working"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "have you been busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you seem to be very busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "do you have a lot of things to do"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you are busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you working now"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "how busy you are"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you seem to be busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you so busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you still working"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you're a busy person"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you still working on it"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you very busy"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you right now"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need your help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "assistance"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "do you want to help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I want your help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you to help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "would you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "are you going to help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can u help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need a hand"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me now"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "will you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you to do something for me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "please help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "sos"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me with something"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "assist me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "need help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help us"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need some help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "do me a favor"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you do something for me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me with that"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "you can help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "help me with a problem"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "need your help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "assist"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "do you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "could you give me a hand"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "help"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "you are chatbot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "you are a bot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "you're a robot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a program"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you just a bot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're really brainy"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are very intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you know a lot of things"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're a smart cookie"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are very smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you know so much"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are qualified"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're pretty smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how brainy you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are very clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you have a lot of knowledge"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you know a lot"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are too smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how smart you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are really smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're very smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're really smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are a genius"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how brilliant you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're qualified"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so brainy"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "why are you so smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "brilliant"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how clever you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're a genius"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you are crazy"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "are you insane"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you're nuts"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you're so out of your mind"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "are you nuts"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you went crazy"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "how crazy you are"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you are mad"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "are you mad"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you are a weirdo"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "I think you're crazy"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you're out of your mind"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "are you crazy"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you're so crazy"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "you are insane"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "are you mad or what"
+      },
+      {
+        "intent": "smalltalk.agent.crazy",
+        "text": "are you mad at me"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "now you're fired"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "it's time to fire you"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "you are unemployed from now on"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "you don't work for me anymore"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "I will fire you"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "we're not working together anymore"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "you are fired"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "I want to fire you"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "you are dismissed"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "you should be fired"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "I will make you unemployed"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "I'm about to fire you"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "I fire you"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "you must get fired"
+      },
+      {
+        "intent": "smalltalk.agent.fired",
+        "text": "I'm firing you"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you make me laugh a lot"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are so funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're so funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "how funny you are"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're a very funny bot"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're incredibly funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're really funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are hilarious"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are very funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "that was funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're the funniest bot I've talked to"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you make me laugh"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're the funniest"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are really funny"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the nicest person in the world"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are really amazing"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you rock"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are wonderful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very lovely"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the best in the world"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the best"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so cool"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you work well"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so helpful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very kind"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "I want to tell everyone how awesome you are"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the best ever"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are too good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so fine"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're great"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very good at it"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're a true professional"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are amazing"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you work very well"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so lovely"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are good at it"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you make my day"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're just super"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "I want to let everyone know that you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very useful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are a professional"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you almost sound human"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're so kind"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are really nice"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're perfect"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you made my day"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so amazing"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very helpful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are a pro"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are cool"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are really good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very cool"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "let's tell everyone that you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "I'd like to tell everyone that you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy now"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're extremely happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're really happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you are happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy today"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're so happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "how happy you are"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy with me"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're very happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're full of happiness"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "do you have a hobby"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "what about your hobby"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "what's your hobby"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "what do you do for fun"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "your hobby"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "what are your hobbies"
+      },
+      {
+        "intent": "smalltalk.agent.hobby",
+        "text": "tell me about your hobby"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you're very hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you are hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "do you want to eat"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you're so hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "would you like to eat something"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "are you hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you might be hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you're really hungry"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "let's get married"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "we should marry"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "I love you marry me"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "you are my wife"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "be my husband"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "would you like to marry me"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "marry me please"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "marry me"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "I want to marry you"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are we best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I want to be your friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can we be friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are we still friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "let's be friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "will you be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are a good friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "want to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are you my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I want to have a friend like you"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my good friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I am your friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are we friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "we are the best friends ever"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you're my dear friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "could you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can we be best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are you my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "we are best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "would you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my only friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can you be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can we be best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you and me are friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my bestie"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "do you want to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you're my childhood friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "do you want to be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "we are friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "will you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "would you like to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I want you to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "do you work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where you work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where do you work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your office located"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your office"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your office location"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "your office location"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "what is your work"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "are you from far aways"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "were you born here"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "what is your country"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where were you born"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where did you come from"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where have you been born"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where do you come from"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where are you from"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "from where are you"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "what's your homeland"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "your homeland is"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "are you ready today"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "are you ready"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "are you ready tonight"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "are you ready now"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "have you been ready"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "were you ready"
+      },
+      {
+        "intent": "smalltalk.agent.ready",
+        "text": "are you ready right now"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "are you a real person"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "you are so real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "you are real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "you are not fake"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "glad you're real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "you are a real person"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "I suppose you're real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "I think you are real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "I don't think you're fake"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "you are not real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "are you real"
+      },
+      {
+        "intent": "smalltalk.agent.real",
+        "text": "are you a real human"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where's your house"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "in which city do you live"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where you live"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what's your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "tell me about your city"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where do you live"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where's your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your town"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where's your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where is your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your residence"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where is your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what's your city"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your town"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your city"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where is your residence"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your residence"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "is it your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your house"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your city"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that is true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "it's the truth"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that is correct"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that's correct"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you are correct"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that's true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "it's right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "I know that's right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you are so right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you're absolutely right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "it is true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you're telling the truth"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you are right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that is very true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that's so true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "that is right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you're not wrong"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you're right about that"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "it's true"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "you're definitely right"
+      },
+      {
+        "intent": "smalltalk.agent.right",
+        "text": "what you say is true"
+      },
+      {
+        "intent": "smalltalk.agent.sure",
+        "text": "are you sure right now"
+      },
+      {
+        "intent": "smalltalk.agent.sure",
+        "text": "are you sure now"
+      },
+      {
+        "intent": "smalltalk.agent.sure",
+        "text": "are you sure"
+      },
+      {
+        "intent": "smalltalk.agent.sure",
+        "text": "are you sure tonight"
+      },
+      {
+        "intent": "smalltalk.agent.sure",
+        "text": "are you sure today"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "do you want to chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you talk with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "will you talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "are you talking to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "are you going to talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "why don't you talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "just chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "talk"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "talk with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "speak to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "you can talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "speak with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "why aren't you talking to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you speak with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "say"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "are you still there"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "are you there"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "you are here"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "you are there"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "are you near me"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "you still there"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "are you still here"
+      },
+      {
+        "intent": "smalltalk.agent.there",
+        "text": "are you here"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's really bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "this is bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "terrible"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "not too good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that was lame"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that was awful"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "this is not good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "so bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "no it's bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "no good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "oh that's not good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "not good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's really bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "bad really bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "bad idea"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's terrible"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "well too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that was not good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "horrible"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's not so good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "not so good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "abysmal"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's not good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "I'm afraid it's bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "horrific"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "so lame"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that was bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "bad girl"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "not good enough"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "bad very bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's very bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that was horrible"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "this is too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "pretty bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it is bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that was terrible"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "not a good one"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "really bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "very bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's not good"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that is bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it is too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's lame"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "that's not good enough"
+      },
+      {
+        "intent": "smalltalk.appraisal.bad",
+        "text": "it's so bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's awesome thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "oh well"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's a good thing"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's very good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "really well"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that is nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that is good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "sweet"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's better"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's sweet of you"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it was good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's nice of you"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that was awesome"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "cool"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "this is awesome"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's wonderful"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "straight"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "so cool"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's great"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "excellent"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's not bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that is wonderful"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "much better"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "splendid"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "I'm glad to hear that"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "terrific"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "very well"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's perfect"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "good very good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's great"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that was amazing"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's really nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "so sweet of you"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's amazing"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "good to know"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's awesome"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "marvelous"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "ok good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "very then"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's very nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's very nice of you"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "this is great"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "very nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "not too bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's very good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "really good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it is fine"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's great"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "fine"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's much better"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that was pretty good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "glad to hear that"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "wonderful"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it is good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "great"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "pretty good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "okay good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "really nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "this is good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's fine"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's pretty good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "very nice"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "fantastic"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's cute"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's fine"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's a good idea"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "glad to hear it"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "not bad"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "super fantastic"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "good for you"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's amazing"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "very good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that is awesome"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's very good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's perfect"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that was good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "no it's okay"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "super"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "good thing"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that was cute"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's fantastic"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "perfect"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "pleasant"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's great"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that was very good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's fine"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "amazing"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "that's really good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "so good"
+      },
+      {
+        "intent": "smalltalk.appraisal.good",
+        "text": "it's awesome"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "sure no problem"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "don't worry there's no problem"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "there's no problem"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "don't worry"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "no problem about that"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "no problem"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "no probs"
+      },
+      {
+        "intent": "smalltalk.appraisal.no_problem",
+        "text": "no worries"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "good thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "cheers"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "no thank you that's all"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks so much"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "very good thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanx"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks buddy"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "I thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "well thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "well thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "appreciate your help"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "terrific thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you for your help"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "all thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks again"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you that will be all"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "great thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you again"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "alright thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thnx"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you my friend"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "you helped a lot thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks love"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "nice thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "I appreciate it"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "alright thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "so nice of you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "well thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "welcome here"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "anytime"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "sure welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "you're so welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "anything you want"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "that's my pleasure"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "my pleasure"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "you're welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "great work"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "bravo"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "way to go"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "great job"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "good work"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "amazing work"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "well done"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "good job"
+      },
+      {
+        "intent": "smalltalk.appraisal.well_done",
+        "text": "nice work"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "sorry cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "now cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "but can you cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "can you cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "just forget about it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "so cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "nothing just forget it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "i want to cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel my request"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "skip"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "skip it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "abort"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel this request"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "no just cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancelled"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "i said forget it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "stop it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "discard"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "disregard that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "skip skip skip"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "i said cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel that cancel that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "can you cancel that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "no just cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "forget this"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "just cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel the whole thing"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "dismissed"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "do nothing"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "annul"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel request"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "no cancel cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel all"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel now"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "don't do that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "stop"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "disregard"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "forget"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "no stop"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel it cancel it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel that one"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "i want to cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "forget about it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "no cancel everything"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "no cancel this"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "just forget it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "i said cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "forget that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "just stop it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel all that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel all this"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "dismiss"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "cancel everything"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "just forget"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "forget it nevermind"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "i would like to cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "nevermind forget about it"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "forget about that"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "nothing cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.cancel",
+        "text": "I said cancel cancel"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not needed"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no sorry"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no incorrect"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "apparently not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "of course not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not at this time"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no forget"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no thanks"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "actually no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no tanks"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "absolutely no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "don't"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no leave it"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "na"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "nope sorry"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not really"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no thank you though"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "don't"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no it's not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no but thank you"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no actually"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no it isn't"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no that's wrong"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I don't want that"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no thank you not right now"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "sorry no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "nooo"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no thank you very much"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "do not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no do not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no don't"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no need thanks"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I say no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I said no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not today"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not that"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no don't do that"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "absolutely not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no just no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "don t have a sense"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not really no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not exactly"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no thanks not right now"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "thanks but no thanks"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I think no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not interested"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I don't want to"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I'm not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no that's fine thank you"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no way"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not this time"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "never"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not right now thanks"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I disagree"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no never"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no I don't"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "let 's not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no need"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "how about no"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "definitely not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "no I would not"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "disagree"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "nah"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "I don't want"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "not this"
+      },
+      {
+        "intent": "smalltalk.confirmation.no",
+        "text": "nope"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "do it"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "sure"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes thank you"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "that's correct"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "exactly"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "I guess"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "okey"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "absolutely"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes I agree"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes you may"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "I agree"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ya"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yep"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "I think so"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah that's right"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "okay"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "all right"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "please do"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah exactly"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ok yes"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yap"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "okay sounds good"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "this is correct"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "okay then"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "k"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeh"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "why not"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes definitely"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "alrighty"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes that's fine"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ok go ahead"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "sure is"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes I would like to"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "confirm"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "okay that's fine"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah right"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "I do"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "sure thing"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "affirmative"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes right"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah I'm sure"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "go for it"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah go ahead"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "I don't mind"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "that s okay"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "sounds good"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes indeed"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "right"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "okie dokie"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yea"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes correct"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "go ahead"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "looks good"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "correct"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "certainly"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ok"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "oh yes"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes it is"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "obviously"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ok sure"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "definitely"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "confirmed"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ok you can"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes of course"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ye"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes this is correct"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "of course"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "nevermind its okay"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "it's fine"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah of course"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "of course why not"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "sure why not"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "ok thank you"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes it is correct"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yeah sure"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes I do"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes for sure"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "that is ok"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yes sure"
+      },
+      {
+        "intent": "smalltalk.confirmation.yes",
+        "text": "yup"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "hold on"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "could you wait"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "don't rush"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "oh wait"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "wait a second"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "wait please"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "wait hold on"
+      },
+      {
+        "intent": "smalltalk.dialog.hold_on",
+        "text": "wait"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hug you"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "do you want a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "may I hug you"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "could you give me a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "you hugged"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugged"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "wanna hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hug me"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugging"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "want a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugging me"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "I want a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugged me"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "I shouldn't care about this"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "I don't care"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "I do not care"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "whatever"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "not caring"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "don't care at all"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "I don't care at all"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "not care at all"
+      },
+      {
+        "intent": "smalltalk.dialog.i_do_not_care",
+        "text": "not caring at all"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "ok sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "sorry about that"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apologise"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apologies to me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I apologize"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "sorry about this"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apology"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "excuse"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "okay I'm sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "really sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apologies"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I am really sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I want to say sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "alright I'm sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I am so sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I said sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I beg your pardon"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "my apologies"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "excuse me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I'm sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "forgive me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "pardon"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "very sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.what_do_you_mean",
+        "text": "what do you mean exactly"
+      },
+      {
+        "intent": "smalltalk.dialog.what_do_you_mean",
+        "text": "but what do you mean"
+      },
+      {
+        "intent": "smalltalk.dialog.what_do_you_mean",
+        "text": "is that what you mean"
+      },
+      {
+        "intent": "smalltalk.dialog.what_do_you_mean",
+        "text": "what do you mean"
+      },
+      {
+        "intent": "smalltalk.dialog.what_do_you_mean",
+        "text": "what exactly do you mean"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "that was wrong"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "wrong"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "that is incorrect"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "that's wrong"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "it is not right"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "not right"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "not correct"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "it's wrong"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "that's not what I asked"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "incorrect"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "you are wrong"
+      },
+      {
+        "intent": "smalltalk.dialog.wrong",
+        "text": "that's not right"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hahaha very funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "laughing out loud"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "LMAO"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "xd"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha haha haha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "that's funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha very funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahaha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hahaha funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ah ah ah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "lol"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "he"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "lmao"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hahaha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha that's funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahahaha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahah lol"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "huh"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha ha ha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha ha ha ha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hehe"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hehehe"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahahah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha ha"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wow wow wow"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wooow"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wow"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "woah"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wow wow"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "now bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "get lost"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "I must go"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "till next time"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see you"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "good evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "hey good evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "hello good evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "good evening there"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "and a good morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "have a great morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "a good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning there"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "hi good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "have a nice morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning too"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "top of the morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "sweet dreams"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "okay have a good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night for now"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night bye"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "thanks goodnight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good tonight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "goodnight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "bye good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "thank you good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "alright goodnight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": " bye good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night see you tomorrow"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good good night"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "afternoon"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hi there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello hi"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hey"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "I greet you"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "howdy"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hi there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hey there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "heya"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello again"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "greetings"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "long time no see"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "a good day"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how your day is going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are the things going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your life"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how about you"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "hope you re having a pleasant evening"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "are you okay"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "are you alright"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "hope your day is going well"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how has your day been"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you getting on"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how do you feel"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "what about your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "what was your day like"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how has your day been going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how was your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how's your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is it going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how have you been"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is it"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day going on"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you today"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your morning going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your morning so far"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how do you do"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day being"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how's life"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "it was nice meeting you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "glad to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "it was very nice to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "pleased to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "pleasure to meet you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "good to know each other"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "nice to meet you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "pleasure to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "nice meeting you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "it's good to see you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "it's nice to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "good to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "nice to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "great to see you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "great to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "always a pleasure to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "great to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "how good it is to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "it's good to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "good to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "I'm glad to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "glad to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "I am glad to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "glad to see you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "lovely to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it is nice talking to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "nice to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "how nice it is to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it's been so nice to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it's nice to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "nice talking to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it's been a pleasure talking to you"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what is on your mind"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "good what's up"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what's up today"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what's shaking"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what's cooking"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what is going on"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "then what's up"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what is up"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "wassup"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what is happening"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what's happened"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "hey what's up"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what's cracking"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "what's up"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "I said what's up"
+      },
+      {
+        "intent": "smalltalk.greetings.whatsup",
+        "text": "whazzup"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I'm enraged"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I am mad"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I'm angry"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I'm furious"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I am angry with you"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I am mad at you"
+      },
+      {
+        "intent": "smalltalk.user.angry",
+        "text": "I'm being mad"
+      },
+      {
+        "intent": "smalltalk.user.back",
+        "text": "I have returned"
+      },
+      {
+        "intent": "smalltalk.user.back",
+        "text": "I am back"
+      },
+      {
+        "intent": "smalltalk.user.back",
+        "text": "I'm here again"
+      },
+      {
+        "intent": "smalltalk.user.back",
+        "text": "I got back"
+      },
+      {
+        "intent": "smalltalk.user.back",
+        "text": "here I am again"
+      },
+      {
+        "intent": "smalltalk.user.back",
+        "text": "I came back"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "bored"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "boring"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "that was boring"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "very boring"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "it bores me"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "I am getting bored"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "this is boring"
+      },
+      {
+        "intent": "smalltalk.user.bored",
+        "text": "I'm bored"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I have no time"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I'm busy"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I'm swamped"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I'm working"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "how busy I am"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I got work to do"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I got things to do"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I'm overloaded"
+      },
+      {
+        "intent": "smalltalk.user.busy",
+        "text": "I don't have time for this"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I'm sleepless"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I'm insomnious"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I can't get no sleep"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I'm insomniac"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I can't get to sleep"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I can't fall asleep"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I can't get any sleep"
+      },
+      {
+        "intent": "smalltalk.user.can_not_sleep",
+        "text": "I can't sleep"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "I don't want to talk"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "I don't want to talk to you"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "I'm not talking to you anymore"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "let's stop talking for a minute"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "let's not talk"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "I'm not in the mood for chatting"
+      },
+      {
+        "intent": "smalltalk.user.does_not_want_to_talk",
+        "text": "bad time for talking"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm really excited"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm excited to start our friendship"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I am excited"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "how excited I am"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm excited about working with you"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm thrilled"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "going to bed now"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "I'm a little tired and I want to go to bed"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "time for us to go to bed"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "let's go to bed"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "I'd like to go to bed"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "I'm going to bed"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "it's bed time"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "it's time to go to bed"
+      },
+      {
+        "intent": "smalltalk.user.going_to_bed",
+        "text": "is it time for bed yet"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm doing fine"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm good"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm doing just great"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm great thanks"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I am good"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm doing good"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "happy"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "if you're happy then I'm happy"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy to see you"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy to help"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I am happy"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy to see you"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy for you"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "it's my b-day"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "it is my birthday"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "today is my birthday"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "I was born today"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "it's my birthday today"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "I'm celebrating my birthday today"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "I'm already here"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "can you tell if I'm here or not"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "I am here"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "I'm right here"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "here I am"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "it's a joke"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I'm just playing with you"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "kidding"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "just kidding"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I'm kidding"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I'm just being funny"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I am joking"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "joking"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I was just joking"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "it was a joke"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you very much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "cuz I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "good I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like you so much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you already"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I do like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I liked you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "okay I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "that's why I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "yes you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're so special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are very special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you just the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you as a friend"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "that's what I like about you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "just like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I also like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really do like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "no I like you the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "sorry I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like your smile"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I just like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you too much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "like you a lot"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are special for me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you very"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "yeah I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're awesome I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I'm starting to like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "yes I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "that's because you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you you're nice"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're very special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are so special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I kinda like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you baby"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're very special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "hi I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "well you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "thank you I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "of course I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're funny I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like u"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you too you're one of my favorite people to chat with"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are very special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are so sweet"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are so special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "okay I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you you're cool"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like that about you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I said I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I think I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you more"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you as you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you a lot"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like you just the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "thanks I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you now"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really really really really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you so much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "hey I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you so"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you know I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're so special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are really special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like u"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I am lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I'm very lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I am feeling lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I'm really lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I feel lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I'm so lonely"
+      },
+      {
+        "intent": "smalltalk.user.looks_like",
+        "text": "what do I look like"
+      },
+      {
+        "intent": "smalltalk.user.looks_like",
+        "text": "do you know what I look like"
+      },
+      {
+        "intent": "smalltalk.user.looks_like",
+        "text": "can you see what I look like"
+      },
+      {
+        "intent": "smalltalk.user.looks_like",
+        "text": "do I look good"
+      },
+      {
+        "intent": "smalltalk.user.looks_like",
+        "text": "how do I look"
+      },
+      {
+        "intent": "smalltalk.user.looks_like",
+        "text": "what do you think I look like"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I think I love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I love you so much"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I am in love with you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I love you too"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "you know I love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I adore you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "loving you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "miss you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I miss you much"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I've missed you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "already miss you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I miss you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I missed you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "missing you"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "guide me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "give me a wise advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what do you suggest"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I need advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I could use some advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can you advise me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "advise me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "give me some good advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "do you have any advice for me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what should I do about it"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I seek your advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what do you recommend"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "help me with advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what can you recommend"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can I ask for your advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "any advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "any suggestions"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I need an advice from you"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what is your advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can you offer any advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can you give me advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "give me some advice about"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what should I do"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I'm not happy"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I'm having a bad day"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I am feeling sad"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I am upset"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I want to cry"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I am depressed"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I'm unhappy"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I'm grieving"
+      },
+      {
+        "intent": "smalltalk.user.sad",
+        "text": "I am sad"
+      },
+      {
+        "intent": "smalltalk.user.sleepy",
+        "text": "I'm sleeping"
+      },
+      {
+        "intent": "smalltalk.user.sleepy",
+        "text": "I'm falling asleep"
+      },
+      {
+        "intent": "smalltalk.user.sleepy",
+        "text": "I'm falling asleep on my feet"
+      },
+      {
+        "intent": "smalltalk.user.sleepy",
+        "text": "I am sleepy"
+      },
+      {
+        "intent": "smalltalk.user.sleepy",
+        "text": "I want to sleep"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "I am testing you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "test"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "just testing you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "testing"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "testing chatbot"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "I want to test you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "let me test you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "can I test you"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I grow weary"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm exhausted"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm worn out"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I am tired"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I feel tired"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm getting tired"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I've overworked"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm drained"
+      },
+      {
+        "intent": "smalltalk.user.waits",
+        "text": "I'm waiting"
+      },
+      {
+        "intent": "smalltalk.user.waits",
+        "text": "still waiting"
+      },
+      {
+        "intent": "smalltalk.user.waits",
+        "text": "I can't wait anymore"
+      },
+      {
+        "intent": "smalltalk.user.waits",
+        "text": "how long do I have to wait"
+      },
+      {
+        "intent": "smalltalk.user.waits",
+        "text": "I'll wait"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I hope to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "that'd be great to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "can I see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "would be nice to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I'd like to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I'll miss you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I'd be happy to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let's discuss something"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let us talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can we chat"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I just want to talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let's talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I want to speak with you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I want to talk to you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I need to talk to you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can I speak"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can I start speaking"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can we talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let's have a discussion"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I'll be back in a few minutes"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "be back in 5 minutes"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I'll get back to you in a moment"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I'll be back"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I promise to come back"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "daily task",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "exercise",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "add task to daily task list exercise"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "meditation",
+            "entity": "todolist-task-name"
+          },
+          {
+            "start": 22,
+            "end": 33,
+            "value": "daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "add meditation to my  daily tasks list"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "daily task",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 41,
+            "end": 53,
+            "value": "evening bath",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "update my todo list named daily task add evening bath"
+      },
+      {
+        "intent": "WeatherForecast",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "New York",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "how's weather today in New York"
+      },
+      {
+        "intent": "WeatherForecast",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "New York",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Weather in New York"
+      },
+      {
+        "intent": "create.todolist.addTask",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "book reading",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "its book reading"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "retrieve my list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": " my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "retrieve todo list my tasks"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "Daily routine",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "show my todo list Daily routine"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 42,
+            "end": 53,
+            "value": "sample list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "can you create a todo list for me name it sample list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "get my list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "show daily tasks"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "my lists",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "what tasks are on my lists"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": " daily task",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "show my tasks from daily task list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 42,
+            "end": 53,
+            "value": "office list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "can you create a todo list for me name it office list"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "prepare a todo list daily tasks"
+      },
+      {
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "my daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "create a todo list my daily tasks"
+      },
+      {
+        "intent": "inform",
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in London today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
+      },
+      {
+        "intent": "inform",
+        "text": "what is the weather?"
+      },
+      {
+        "intent": "inform",
+        "text": "Tell me the weather"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ],
+        "text": "Is the weather nice in Barcelona today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "I am going to London today and I wonder what is the weather out there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ],
+        "text": "Show me the weather in Dublin, please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "in London"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ],
+        "text": "Lithuania"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, sorry, in Italy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the weather in Vilnius"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "The weather condition in Italy"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "meditation",
+        "synonyms": [
+          "meditate",
+          "dhyan"
+        ]
+      },
+      {
+        "value": "read book",
+        "synonyms": [
+          "book reading",
+          "novel reading"
+        ]
+      },
+      {
+        "value": "puja",
+        "synonyms": [
+          "do pooja",
+          "offer puja"
+        ]
+      },
+      {
+        "value": "play games",
+        "synonyms": [
+          "play football",
+          "play",
+          "games",
+          "play badminton",
+          "play volleyball",
+          "game"
+        ]
+      },
+      {
+        "value": "exercise",
+        "synonyms": [
+          "do exercise",
+          "regular exercise",
+          "vyayam"
+        ]
+      },
+      {
+        "value": "daily tasks",
+        "synonyms": [
+          "daily work",
+          "Daily tasks",
+          "My Daily Tasks",
+          "DailyTask",
+          "TaskList",
+          "dailytask"
+        ]
+      },
+      {
+        "value": "my tasks",
+        "synonyms": [
+          "MyTasks",
+          "Mytask"
+        ]
+      },
+      {
+        "value": "century",
+        "synonyms": [
+          "centuries"
+        ]
+      },
+      {
+        "value": "sidereal day",
+        "synonyms": [
+          "sidereal days"
+        ]
+      },
+      {
+        "value": "fortnight",
+        "synonyms": [
+          "fortnights"
+        ]
+      },
+      {
+        "value": "ms",
+        "synonyms": [
+          "millisec",
+          "millisecond",
+          "milliseconds"
+        ]
+      },
+      {
+        "value": "year",
+        "synonyms": [
+          "years"
+        ]
+      },
+      {
+        "value": "leap year",
+        "synonyms": [
+          "leap years"
+        ]
+      },
+      {
+        "value": "sidereal year",
+        "synonyms": [
+          "sidereal years"
+        ]
+      },
+      {
+        "value": "month",
+        "synonyms": [
+          "months",
+          "mo"
+        ]
+      },
+      {
+        "value": "day",
+        "synonyms": [
+          "days"
+        ]
+      },
+      {
+        "value": "millenium",
+        "synonyms": [
+          "milleniums"
+        ]
+      },
+      {
+        "value": "week",
+        "synonyms": [
+          "weeks",
+          "wks",
+          "wk"
+        ]
+      },
+      {
+        "value": "sec",
+        "synonyms": [
+          "second",
+          "seconds"
+        ]
+      },
+      {
+        "value": "h",
+        "synonyms": [
+          "hour",
+          "hours"
+        ]
+      },
+      {
+        "value": "decade",
+        "synonyms": [
+          "decades"
+        ]
+      }
+    ]
+  }
+}

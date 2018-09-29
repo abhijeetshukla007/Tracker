@@ -7,12 +7,9 @@
     "intent_WeatherForecast_usersays_en",
     "intent_create.todolist",
     "intent_create.todolist.addTask",
-    "intent_create.todolist.addTask - no",
-    "intent_create.todolist.addTask - no_usersays_en",
-    "intent_create.todolist.addTask - yes",
-    "intent_create.todolist.addTask - yes_usersays_en",
     "intent_create.todolist.addTask_usersays_en",
     "intent_create.todolist_usersays_en",
+    "intent_inform",
     "intent_retrieve.todolist",
     "intent_retrieve.todolist_usersays_en",
     "intent_smalltalk.agent.acquaintance",
@@ -621,6 +618,8 @@
     "intent_update.todolist_usersays_en",
     "entity_todolist-task-name",
     "entity_tolist-name",
+    "entity_location",
+    "slot_location_0",
     "slot_todolist-task-name_0",
     "slot_tolist-name_0",
     "prev_action_listen",
@@ -720,6 +719,9 @@
     "prev_action_add_task_to_list",
     "prev_utter_ask_taskName",
     "prev_utter_createdTodolist.addTask - no-response",
-    "prev_utter_create.todolist.addTask - yes-response"
+    "prev_utter_create.todolist.addTask - yes-response",
+    "prev_utter_default_greet",
+    "prev_utter_ask_location",
+    "prev_action_weather"
   ]
 }

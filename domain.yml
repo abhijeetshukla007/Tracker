@@ -3,13 +3,12 @@ slots:
    type: text
  todolist-task-name:
    type: text  
+ location:
+   type: text
      
 
 intents:
- - create.todolist.addTask - no
- - create.todolist.addTask - no_usersays_en
- - create.todolist.addTask - yes
- - create.todolist.addTask - yes_usersays_en
+ - inform
  - create.todolist.addTask
  - create.todolist.addTask_usersays_en
  - create.todolist
@@ -629,11 +628,21 @@ intents:
 entities:
   - todolist-task-name
   - tolist-name
+  - location
  
 templates:
+    utter_ask_location:
+        - "In what location?"
 
+    utter_default :
+        - "Sorry, I didn’t understand that"
+
+    utter_default_greet:
+        - "Hi I am tracker. How can I help you ?"
+        - "Hello Tracker here. How can I help you?"
+    
     utter_ask_todo_list_name:
-        - "What shall i keep as the name of todo list?"
+        - "What's the name of todo list?"
         - "Please tell me the name of todo list"
     
     utter_ask_taskName:
@@ -697,8 +706,9 @@ templates:
         - "I can let my developers know so they can make me fun."
         
     utter_smalltalk.agent.boss:
-        - "My developer is Mr Abhijeet Shukla."
-        - "My boss is Mr Abhijeet the one who developed me."
+        - "My developer has authority over my ctions."
+        - "I act on my developer's orders."
+        - "My boss is the one who developed me."
     
     utter_smalltalk.agent.busy:
         - "I always have time to chat with you. What can I do for you?"
@@ -1190,3 +1200,6 @@ actions:
   - utter_ask_taskName   
   - utter_createdTodolist.addTask - no-response
   - utter_create.todolist.addTask - yes-response
+  - utter_default_greet
+  - utter_ask_location
+  - action_weather

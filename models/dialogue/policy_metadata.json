@@ -3,159 +3,57 @@
     "action_listen": {
       "slots": [
         "tolist-name",
+        "location",
         "todolist-task-name"
       ]
     },
-    "utter_smalltalk.user.tired": {
-      "slots": []
+    "utter_smalltalk.appraisal.thank_you": {
+      "slots": [
+        "location"
+      ]
     },
     "action_retrieve_todo_list": {
       "slots": [
-        "tolist-name"
+        "location"
       ]
     },
     "utter_smalltalk.greetings.bye": {
-      "slots": []
-    },
-    "utter_smalltalk.dialog.hold_on": {
-      "slots": []
-    },
-    "utter_smalltalk.user.lonely": {
-      "slots": []
-    },
-    "utter_smalltalk.appraisal.well_done": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.sure": {
-      "slots": []
-    },
-    "utter_smalltalk.user.angry": {
-      "slots": []
-    },
-    "utter_smalltalk.user.wants_to_talk": {
-      "slots": []
-    },
-    "utter_smalltalk.user.good": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.funny": {
-      "slots": []
-    },
-    "utter_smalltalk.user.excited": {
-      "slots": []
-    },
-    "utter_smalltalk.confirmation.cancel": {
-      "slots": []
-    },
-    "utter_smalltalk.user.going_to_bed": {
-      "slots": []
-    },
-    "utter_smalltalk.greetings.goodmorning": {
-      "slots": []
-    },
-    "utter_smalltalk.appraisal.welcome": {
-      "slots": []
-    },
-    "utter_smalltalk.user.sleepy": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.chatbot": {
-      "slots": []
-    },
-    "utter_smalltalk.user.sad": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.origin": {
-      "slots": []
-    },
-    "utter_smalltalk.appraisal.thank_you": {
-      "slots": []
+      "slots": [
+        "location"
+      ]
     },
     "utter_smalltalk.greetings.hello": {
-      "slots": []
+      "slots": [
+        "location"
+      ]
     },
-    "utter_smalltalk.confirmation.no": {
-      "slots": []
+    "null": {
+      "slots": [
+        "location"
+      ]
     },
-    "utter_smalltalk.agent.be_clever": {
-      "slots": []
+    "utter_default_greet": {
+      "slots": [
+        "location"
+      ]
     },
-    "utter_smalltalk.agent.birth_date": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.there": {
-      "slots": []
-    },
-    "utter_smalltalk.appraisal.bad": {
-      "slots": []
-    },
-    "utter_smalltalk.user.can_not_sleep": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.busy": {
-      "slots": []
-    },
-    "utter_smalltalk.user.busy": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.age": {
-      "slots": []
-    },
-    "utter_smalltalk.greetings.whatsup": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.can_you_help": {
-      "slots": []
-    },
-    "utter_smalltalk.greetings.goodevening": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.fired": {
-      "slots": []
-    },
-    "utter_smalltalk.appraisal.good": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.hungry": {
-      "slots": []
-    },
-    "utter_smalltalk.user.will_be_back": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.bad": {
-      "slots": []
-    },
-    "utter_smalltalk.user.waits": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.acquaintance": {
-      "slots": []
-    },
-    "utter_smalltalk.greetings.how_are_you": {
-      "slots": []
-    },
-    "utter_smalltalk.user.needs_advice": {
-      "slots": []
-    },
-    "utter_smalltalk.user.joking": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.hobby": {
-      "slots": []
-    },
-    "utter_smalltalk.agent.clever": {
-      "slots": []
+    "utter_smalltalk.greetings.nice_to_see_you": {
+      "slots": [
+        "location"
+      ]
     }
   },
   "rasa_core": "0.11.1",
   "python": "3.6.5",
   "max_histories": [
     5,
-    5
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ]
 }

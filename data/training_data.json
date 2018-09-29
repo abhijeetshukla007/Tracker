@@ -2,436 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "thanks but no",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no way",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no no don't",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "na",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no it isn't",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "don't",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nah I'm good",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no I cannot",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I can't",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nothing",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no that's okay",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no not really",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nope not really",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nope",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "thanks but not this time",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I don't think so",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I disagree",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no maybe next time",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not this time",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no don't",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no we are good",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "don't do it",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no that's be all",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not right now",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nothing else thanks",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no thanks",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no that's ok",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I don't want that",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "definitely not",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nothing else",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not at all",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no never",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "never",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no way no",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not really",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "nah",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I don't",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I don't want",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not today",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "not interested",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "no that's fine thank you",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "I'm not",
-        "intent": "create.todolist.addTask - no",
-        "entities": []
-      },
-      {
-        "text": "yes",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "okay I will",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "why not",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes that's alright",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes I do",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "exactly",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "of course",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yep that's ok",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "okay",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "ok",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "for sure",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "sg",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes that't ok",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "I agree",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes you can do it",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "I don't mind",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "that one works",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "that works",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "sure why not",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "perfect",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yep that's right",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "I think so",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes I agree",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "sure",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "sounds correct",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "sounds good",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "that's correct",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "go ahead",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "do it",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "it's fine",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yeah",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes please",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "it's okay",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "alright why not",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "alright",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "right",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "it looks perfect",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yes I can",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yup",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "yep",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "confirm",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
-        "text": "absolutely",
-        "intent": "create.todolist.addTask - yes",
-        "entities": []
-      },
-      {
         "text": "fill a form",
         "intent": "create.todolist.addTask",
         "entities": [
@@ -492,7 +62,7 @@
         ]
       },
       {
-        "text": "add jogging in the moring",
+        "text": "add jogging in the morning",
         "intent": "create.todolist.addTask",
         "entities": [
           {
@@ -862,7 +432,14 @@
       {
         "text": "fetch my todo list office task",
         "intent": "retrieve.todolist",
-        "entities": []
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "office task",
+            "entity": "tolist-name"
+          }
+        ]
       },
       {
         "text": "get todo list daily task",
@@ -8623,7 +8200,7 @@
         ]
       },
       {
-        "text": "hows weather today in New York",
+        "text": "how's weather today in New York",
         "intent": "WeatherForecast",
         "entities": [
           {
@@ -8777,6 +8354,177 @@
             "entity": "tolist-name"
           }
         ]
+      },
+      {
+        "text": "create a todo list my daily tasks",
+        "intent": "create.todolist",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "value": "my daily tasks",
+            "entity": "tolist-name"
+          }
+        ]
+      },
+      {
+        "text": "What's the weather today?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in London today?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Show me what's the weather in Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what is the weather in Vilnius right now?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is the weather?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Tell me the weather",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Is the weather nice in Barcelona today?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Show me the weather in Dublin, please",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in London",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Lithuania",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Oh, sorry, in Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the weather in Vilnius",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "The weather condition in Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
       }
     ],
     "regex_features": [],
@@ -8837,7 +8585,8 @@
         "value": "my tasks",
         "synonyms": [
           "MyTasks",
-          "Mytask"
+          "Mytask",
+          "my tasks"
         ]
       },
       {

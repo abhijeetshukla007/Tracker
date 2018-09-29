@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\RASA\\MyBOts\\Tracker\\./models\\tracker\\trackermodel\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "E:\\RASA\\MyBOts\\Tracker\\./models\\tracker\\trackermodel\\intent_classifier_tensorflow_embedding.ckpt"

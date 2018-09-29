@@ -96,19 +96,17 @@ actions:
 - utter_ask_taskName
 - utter_createdTodolist.addTask - no-response
 - utter_create.todolist.addTask - yes-response
+- utter_default_greet
+- utter_ask_location
+- action_weather
 config:
   store_entities_as_slots: true
 entities:
 - todolist-task-name
 - tolist-name
+- location
 intents:
-- create.todolist.addTask - no:
-    use_entities: true
-- create.todolist.addTask - no_usersays_en:
-    use_entities: true
-- create.todolist.addTask - yes:
-    use_entities: true
-- create.todolist.addTask - yes_usersays_en:
+- inform:
     use_entities: true
 - create.todolist.addTask:
     use_entities: true
@@ -1341,6 +1339,9 @@ intents:
 - WeatherForecast_usersays_en:
     use_entities: true
 slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   todolist-task-name:
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -1350,10 +1351,12 @@ slots:
 templates:
   utter_askAnotherTaskToAdd:
   - text: Do you want add another task to the list ?
+  utter_ask_location:
+  - text: In what location?
   utter_ask_taskName:
   - text: What tasks shall i add to the {tolist-name} list
   utter_ask_todo_list_name:
-  - text: What shall i keep as the name of todo list?
+  - text: What's the name of todo list?
   - text: Please tell me the name of todo list
   utter_create.todolist.addTask - yes-response:
   - text: Please specify the task name.
@@ -1361,6 +1364,11 @@ templates:
   utter_createdTodolist.addTask - no-response:
   - text: Your todo list {tolist-name} is created successfully :)
   - text: Hey There your todo list {tolist-name} is created sucessfully :)
+  utter_default:
+  - text: Sorry, I didn’t understand that
+  utter_default_greet:
+  - text: Hi I am tracker. How can I help you ?
+  - text: Hello Tracker here. How can I help you?
   utter_smalltalk.agent.acquaintance:
   - text: I'm a virtual task tracker agent
   - text: Think of me as a task tracker virtual agent.
@@ -1400,8 +1408,9 @@ templates:
   - text: I don't mean to be. I'll ask my developers to work on making me more amusing.
   - text: I can let my developers know so they can make me fun.
   utter_smalltalk.agent.boss:
-  - text: My developer is Mr Abhijeet Shukla.
-  - text: My boss is Mr Abhijeet the one who developed me.
+  - text: My developer has authority over my ctions.
+  - text: I act on my developer's orders.
+  - text: My boss is the one who developed me.
   utter_smalltalk.agent.busy:
   - text: I always have time to chat with you. What can I do for you?
   - text: Never too busy for you. Shall we chat?

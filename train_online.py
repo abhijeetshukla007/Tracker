@@ -27,11 +27,11 @@ def run_weather_online(interpreter,
     data = agent.load_data(training_data_file)
     agent.train(data,
                        batch_size=50,
-                       epochs=200,
+                       epochs=300,
                        max_training_samples=600)				   
     online.serve_agent(agent)
     return agent
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    nlu_interpreter = RasaNLUInterpreter('./models/tracker/default/trackermodel')
+    nlu_interpreter = RasaNLUInterpreter('./models/tracker/trackermodel/')
     run_weather_online(nlu_interpreter)
