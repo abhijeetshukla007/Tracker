@@ -12,6 +12,7 @@ intents:
  - create.todolist.addTask
  - create.todolist.addTask_usersays_en
  - create.todolist
+ - input.list.name
  - create.todolist_usersays_en
  - Default Fallback Intent
  - Default Welcome Intent

@@ -10,6 +10,7 @@
     "intent_create.todolist.addTask_usersays_en",
     "intent_create.todolist_usersays_en",
     "intent_inform",
+    "intent_input.list.name",
     "intent_retrieve.todolist",
     "intent_retrieve.todolist_usersays_en",
     "intent_smalltalk.agent.acquaintance",

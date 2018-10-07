@@ -2,6 +2,350 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "create.todolist.addTask - no",
+        "text": "thanks but no"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no way"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no no don't"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "na"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no it isn't"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "don't"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nah I'm good"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no I cannot"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I can't"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nothing"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no that's okay"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no not really"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nope not really"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nope"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "thanks but not this time"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I disagree"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no maybe next time"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not this time"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no don't"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no we are good"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "don't do it"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no that's be all"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not right now"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nothing else thanks"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no thanks"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no that's ok"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I don't want that"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "definitely not"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nothing else"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not at all"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no never"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "never"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no way no"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not really"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "nah"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I don't"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I don't want"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not today"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "not interested"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "no that's fine thank you"
+      },
+      {
+        "intent": "create.todolist.addTask - no",
+        "text": "I'm not"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "okay I will"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "why not"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes that's alright"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes I do"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "exactly"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "of course"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yep that's ok"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "okay"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "ok"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "for sure"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "sg"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes that't ok"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "I agree"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes you can do it"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "I don't mind"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "that one works"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "that works"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "sure why not"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "perfect"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yep that's right"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "I think so"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes I agree"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "sure"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "sounds correct"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "sounds good"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "that's correct"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "go ahead"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "do it"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "it's fine"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yeah"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes please"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "it's okay"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "alright why not"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "alright"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "right"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "it looks perfect"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yes I can"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yup"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "yep"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "confirm"
+      },
+      {
+        "intent": "create.todolist.addTask - yes",
+        "text": "absolutely"
+      },
+      {
         "intent": "create.todolist.addTask",
         "entities": [
           {
@@ -71,7 +415,7 @@
             "entity": "todolist-task-name"
           }
         ],
-        "text": "add jogging in the morning"
+        "text": "add jogging in the moring"
       },
       {
         "intent": "create.todolist.addTask",
@@ -390,6 +734,246 @@
         "text": "a good day"
       },
       {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 23,
+            "value": "My Important tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "it's My Important tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Routine Tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "Routine Tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Important tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "Important tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "Daily tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "sample list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "sample list"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "my tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "Daily tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "keep it Daily tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 15,
+            "value": "sample list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "its sample list"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "make my tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "my jobs",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "make my jobs"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "its my tasks"
+      },
+      {
+        "intent": "input.list.name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "my list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "show todo list my tasks"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Sample tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "get my todo list Sample tasks"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "please retrieve my todo list my list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "what's there in my todo list my list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "please tell me what is there in my tasks todo list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "can you get my list"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "retrieve list my tasks"
+      },
+      {
+        "intent": "retrieve.todolist",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "my list",
+            "entity": "tolist-name"
+          }
+        ],
+        "text": "retrieve todo list my list"
+      },
+      {
         "intent": "retrieve.todolist",
         "entities": [
           {
@@ -415,14 +999,6 @@
       },
       {
         "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 19,
-            "end": 30,
-            "value": "office task",
-            "entity": "tolist-name"
-          }
-        ],
         "text": "fetch my todo list office task"
       },
       {
@@ -6597,6 +7173,96 @@
         "intent": "update.todolist",
         "entities": [
           {
+            "start": 28,
+            "end": 35,
+            "value": "my list",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "exercise",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "kindly upgrade my todo list my list add morning exercise"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 27,
+            "end": 40,
+            "value": "daily routine",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "yoga",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "please update my todo list daily routine add yoga"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 28,
+            "end": 39,
+            "value": "Daily tasks",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "exercise",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "can you update my todo list Daily tasks add morning exercise to it"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "my list",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 15,
+            "end": 29,
+            "value": "add meditation",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "update my list add meditation to it"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "my tasks",
+            "entity": "tolist-name"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "morning walk",
+            "entity": "todolist-task-name"
+          }
+        ],
+        "text": "update todo list my tasks add morning walk"
+      },
+      {
+        "intent": "update.todolist",
+        "entities": [
+          {
             "start": 12,
             "end": 22,
             "value": "daily task",
@@ -6657,7 +7323,7 @@
             "entity": "geo-city"
           }
         ],
-        "text": "how's weather today in New York"
+        "text": "hows weather today in New York"
       },
       {
         "intent": "WeatherForecast",
@@ -6670,311 +7336,29 @@
           }
         ],
         "text": "Weather in New York"
-      },
-      {
-        "intent": "create.todolist.addTask",
-        "entities": [
-          {
-            "start": 4,
-            "end": 16,
-            "value": "book reading",
-            "entity": "todolist-task-name"
-          }
-        ],
-        "text": "its book reading"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 9,
-            "end": 16,
-            "value": "my list",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "retrieve my list"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 18,
-            "end": 27,
-            "value": " my tasks",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "retrieve todo list my tasks"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 18,
-            "end": 31,
-            "value": "Daily routine",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "show my todo list Daily routine"
-      },
-      {
-        "intent": "create.todolist",
-        "entities": [
-          {
-            "start": 42,
-            "end": 53,
-            "value": "sample list",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "can you create a todo list for me name it sample list"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 4,
-            "end": 11,
-            "value": "my list",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "get my list"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 5,
-            "end": 16,
-            "value": "daily tasks",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "show daily tasks"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 18,
-            "end": 26,
-            "value": "my lists",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "what tasks are on my lists"
-      },
-      {
-        "intent": "retrieve.todolist",
-        "entities": [
-          {
-            "start": 18,
-            "end": 29,
-            "value": " daily task",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "show my tasks from daily task list"
-      },
-      {
-        "intent": "create.todolist",
-        "entities": [
-          {
-            "start": 42,
-            "end": 53,
-            "value": "office list",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "can you create a todo list for me name it office list"
-      },
-      {
-        "intent": "create.todolist",
-        "entities": [
-          {
-            "start": 20,
-            "end": 31,
-            "value": "daily tasks",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "prepare a todo list daily tasks"
-      },
-      {
-        "intent": "create.todolist",
-        "entities": [
-          {
-            "start": 19,
-            "end": 33,
-            "value": "my daily tasks",
-            "entity": "tolist-name"
-          }
-        ],
-        "text": "create a todo list my daily tasks"
-      },
-      {
-        "intent": "inform",
-        "text": "What's the weather today?"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 22,
-            "end": 28,
-            "value": "London",
-            "entity": "location"
-          }
-        ],
-        "text": "What's the weather in London today?"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 30,
-            "end": 35,
-            "value": "Paris",
-            "entity": "location"
-          }
-        ],
-        "text": "Show me what's the weather in Paris"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 32,
-            "end": 39,
-            "value": "Vilnius",
-            "entity": "location"
-          }
-        ],
-        "text": "I wonder what is the weather in Vilnius right now?"
-      },
-      {
-        "intent": "inform",
-        "text": "what is the weather?"
-      },
-      {
-        "intent": "inform",
-        "text": "Tell me the weather"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 23,
-            "end": 32,
-            "value": "Barcelona",
-            "entity": "location"
-          }
-        ],
-        "text": "Is the weather nice in Barcelona today?"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 14,
-            "end": 20,
-            "value": "London",
-            "entity": "location"
-          }
-        ],
-        "text": "I am going to London today and I wonder what is the weather out there?"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 25,
-            "end": 34,
-            "value": "Amsterdam",
-            "entity": "location"
-          }
-        ],
-        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 23,
-            "end": 29,
-            "value": "Dublin",
-            "entity": "location"
-          }
-        ],
-        "text": "Show me the weather in Dublin, please"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 3,
-            "end": 9,
-            "value": "London",
-            "entity": "location"
-          }
-        ],
-        "text": "in London"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "Lithuania",
-            "entity": "location"
-          }
-        ],
-        "text": "Lithuania"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 14,
-            "end": 19,
-            "value": "Italy",
-            "entity": "location"
-          }
-        ],
-        "text": "Oh, sorry, in Italy"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 23,
-            "end": 30,
-            "value": "Vilnius",
-            "entity": "location"
-          }
-        ],
-        "text": "Tell me the weather in Vilnius"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "start": 25,
-            "end": 30,
-            "value": "Italy",
-            "entity": "location"
-          }
-        ],
-        "text": "The weather condition in Italy"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
     "entity_synonyms": [
+      {
+        "value": "supermarket",
+        "synonyms": [
+          "shop"
+        ]
+      },
+      {
+        "value": "bank",
+        "synonyms": [
+          "atm"
+        ]
+      },
+      {
+        "value": "museum",
+        "synonyms": [
+          "gallery"
+        ]
+      },
       {
         "value": "meditation",
         "synonyms": [
@@ -7018,19 +7402,13 @@
       {
         "value": "daily tasks",
         "synonyms": [
-          "daily work",
-          "Daily tasks",
-          "My Daily Tasks",
-          "DailyTask",
-          "TaskList",
-          "dailytask"
+          "daily work"
         ]
       },
       {
-        "value": "my tasks",
+        "value": "College list",
         "synonyms": [
-          "MyTasks",
-          "Mytask"
+          "college list"
         ]
       },
       {

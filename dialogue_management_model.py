@@ -39,10 +39,10 @@ def train_dialogue(
 
 
 input_channel = FacebookInput(
-    fb_verify="1SLUOxZACyK14424df-rasa-bot",
+    fb_verify="",
     # you need tell facebook this token, to confirm your URL
-    fb_secret="49e74c993d6045abf5b43c03c39ba677",  # your app secret
-    fb_access_token="EAAEdmlTd4jYBAKh1sT6diElbm4s59Hynqi6bZAou9sa4UA4IUghGZBtF2X5PxDhHv1zFZCEcirs5vXaKvcidTfvEb1FyWwW40lufwnB6bQkjRuPziXFZAR5NlByJ306HUSEhzHE1BxBhtUf0NxTY5KjnL6jIQMUpyh22lgCiVU5SIH0sDnrp"
+    fb_secret="",  # your app secret
+    fb_access_token=""
     # token for the page you subscribed to
 )
 

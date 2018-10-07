@@ -2,45 +2,19 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "tolist-name",
-        "location",
-        "todolist-task-name"
-      ]
-    },
-    "utter_smalltalk.appraisal.thank_you": {
-      "slots": [
-        "location"
-      ]
-    },
-    "action_retrieve_todo_list": {
-      "slots": [
-        "location"
-      ]
-    },
-    "utter_smalltalk.greetings.bye": {
-      "slots": [
-        "location"
-      ]
-    },
-    "utter_smalltalk.greetings.hello": {
-      "slots": [
-        "location"
-      ]
-    },
-    "null": {
-      "slots": [
-        "location"
+        "tolist-name"
       ]
     },
     "utter_default_greet": {
+      "slots": []
+    },
+    "action_create_todo_list": {
       "slots": [
-        "location"
+        "tolist-name"
       ]
     },
-    "utter_smalltalk.greetings.nice_to_see_you": {
-      "slots": [
-        "location"
-      ]
+    "utter_ask_taskName": {
+      "slots": []
     }
   },
   "rasa_core": "0.11.1",

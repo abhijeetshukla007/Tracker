@@ -4,13 +4,12 @@ from __future__ import unicode_literals
 
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from rasa_core_sdk.forms import FormAction,EntityFormField
+
 import requests
 from requests.auth import HTTPDigestAuth
 import json
 import datetime
-
-ACTION_DEFAULT_FALLBACK_NAME = "action_default_fallback"
+from rasa_core_sdk.forms import FormAction, EntityFormField
 
 
 class ActionWeather(Action):
@@ -41,13 +40,6 @@ class ActionWeather(Action):
 
 
 class ActionCreateTodoList(Action):
-
-    @staticmethod
-    def required_fields():
-        return [
-            EntityFormField("tolist-name", "tolist-name")
-        ]
-
     def name(self):
         return "action_create_todo_list"
 
@@ -80,13 +72,8 @@ class ActionAddTaskToList(Action):
         now = datetime.datetime.now()
 
         payload = {
-                "name": listname,
-                "taskList": [
-                    {
-                        "taskName": taskName,
-                        "date":str(now)			
-                    }
-                ]
+            "name": listname,
+            "taskList": [{"taskName": taskName, "date": str(now)}],
         }
         response = requests.post(url, data=None, json=payload)
 
@@ -98,6 +85,7 @@ class ActionAddTaskToList(Action):
         print(jsonResponse["message"])
         dispatcher.utter_message(jsonResponse["message"])
         return []
+
 
 class ActionRetrieveTodoList(Action):
     def name(self):
@@ -118,18 +106,3 @@ class ActionRetrieveTodoList(Action):
         print(jsonResponse["message"])
         dispatcher.utter_message(jsonResponse["message"])
         return []
-
-class ActionDefaultFallback(Action):
-    """Executes the fallback action and goes back to the previous state
-    of the dialogue"""
-
-    def name(self):
-        return ACTION_DEFAULT_FALLBACK_NAME
-
-    def run(self, dispatcher, tracker, domain):
-        from rasa_core.events import UserUtteranceReverted
-
-        dispatcher.utter_template("utter_default", tracker,
-                                  silent_fail=True)
-
-        return [UserUtteranceReverted()]

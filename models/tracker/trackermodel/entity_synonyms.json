@@ -1,4 +1,7 @@
 {
+  "shop": "supermarket",
+  "atm": "bank",
+  "gallery": "museum",
   "meditate": "meditation",
   "dhyan": "meditation",
   "book reading": "read book",
@@ -15,12 +18,7 @@
   "regular exercise": "exercise",
   "vyayam": "exercise",
   "daily work": "daily tasks",
-  "daily tasks": "daily tasks",
-  "my daily tasks": "daily tasks",
-  "dailytask": "daily tasks",
-  "tasklist": "daily tasks",
-  "mytasks": "my tasks",
-  "mytask": "my tasks",
+  "college list": "College list",
   "centuries": "century",
   "sidereal days": "sidereal day",
   "fortnights": "fortnight",
@@ -41,6 +39,5 @@
   "seconds": "sec",
   "hour": "h",
   "hours": "h",
-  "decades": "decade",
-  " new yor": "New York"
+  "decades": "decade"
 }

@@ -114,6 +114,8 @@ intents:
     use_entities: true
 - create.todolist:
     use_entities: true
+- input.list.name:
+    use_entities: true
 - create.todolist_usersays_en:
     use_entities: true
 - Default Fallback Intent:
