@@ -11,7 +11,7 @@ def train_nlu(data, configs, model_dir):
 	
 def run_nlu():
 	interpreter = Interpreter.load('./models/tracker/trackermodel/')
-	print(interpreter.parse("Hi here"))
+	print(interpreter.parse("Hi"))
 	
 if __name__ == '__main__':
 	train_nlu('./data/training_data.json', 'config.yml', './models')

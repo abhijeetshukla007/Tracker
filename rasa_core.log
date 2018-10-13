@@ -1,0 +1,323 @@
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+custom_webhook.health                              OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook.receive                             POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Starting new HTTP connection (1): localhost
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+custom_webhook.health                              OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook.receive                             POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Starting new HTTP connection (1): localhost
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'smalltalk.greetings.hello', 'confidence': 0.8109743595123291}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, None, None, {}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '98'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_default_greet' with prob 1.00.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hi I am tracker. How can I help you ?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'create a todo list my list' with intent '{'name': 'create.todolist', 'confidence': 0.9474942088127136}' and entities '[{'start': 19, 'end': 26, 'value': 'my list', 'entity': 'todo-list-name', 'confidence': 0.9726392218469522, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: my list
+Current tracker state [None, {}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_create.todolist': 1.0}]
+There is a memorised next action '91'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_create_todo_list' with prob 1.00.
+Encountered an exception while running action 'action_create_todo_list'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'action_create_todo_list' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration.https://rasa.com/docs/core/customactions.html
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 306, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'action_create_todo_list' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration.https://rasa.com/docs/core/customactions.html
+Action 'action_create_todo_list' ended with events '[]'
+Current tracker state [{}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_create_todo_list': 1.0, 'intent_create.todolist': 1.0}]
+There is a memorised next action '95'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_ask_taskName' with prob 1.00.
+Action 'utter_ask_taskName' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: What tasks shall i add to the my list list, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_create_todo_list': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_ask_taskName': 1.0, 'intent_create.todolist': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'add meditation' with intent '{'name': 'add.task.todo.list', 'confidence': 0.9362742900848389}' and entities '[{'start': 4, 'end': 14, 'value': 'meditation', 'entity': 'task-name', 'confidence': 0.7082429525492249, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 13 events
+Current slot values: 
+	geo-city: None
+	task-name: meditation
+	todo-list-name: my list
+Current tracker state [{'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_create_todo_list': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_ask_taskName': 1.0, 'intent_create.todolist': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'prev_action_listen': 1.0, 'entity_task-name': 1.0}]
+There is a memorised next action '94'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_add_task_to_list' with prob 1.00.
+Encountered an exception while running action 'action_add_task_to_list'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'action_add_task_to_list' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration.https://rasa.com/docs/core/customactions.html
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 306, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'action_add_task_to_list' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration.https://rasa.com/docs/core/customactions.html
+Action 'action_add_task_to_list' ended with events '[]'
+Current tracker state [{'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_create_todo_list': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_ask_taskName': 1.0, 'intent_create.todolist': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'prev_action_listen': 1.0, 'entity_task-name': 1.0}, {'prev_action_add_task_to_list': 1.0, 'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}]
+There is a memorised next action '90'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_askAnotherTaskToAdd' with prob 1.00.
+Action 'utter_askAnotherTaskToAdd' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Do you want add another task to the list ?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_create_todo_list': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_ask_taskName': 1.0, 'intent_create.todolist': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'prev_action_listen': 1.0, 'entity_task-name': 1.0}, {'prev_action_add_task_to_list': 1.0, 'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_askAnotherTaskToAdd': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'no' with intent '{'name': 'smalltalk.confirmation.no', 'confidence': 0.9105165600776672}' and entities '[]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	geo-city: None
+	task-name: meditation
+	todo-list-name: my list
+Current tracker state [{'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_ask_taskName': 1.0, 'intent_create.todolist': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'prev_action_listen': 1.0, 'entity_task-name': 1.0}, {'prev_action_add_task_to_list': 1.0, 'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_askAnotherTaskToAdd': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_smalltalk.confirmation.no': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_createdTodolist.addTask - no-response' with prob 0.93.
+Action 'utter_createdTodolist.addTask - no-response' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hey There your todo list my list is created sucessfully :), data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'prev_action_listen': 1.0, 'entity_task-name': 1.0}, {'prev_action_add_task_to_list': 1.0, 'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_askAnotherTaskToAdd': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_smalltalk.confirmation.no': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_createdTodolist.addTask - no-response': 1.0, 'intent_smalltalk.confirmation.no': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'thanks' with intent '{'name': 'smalltalk.appraisal.thank_you', 'confidence': 0.9545745849609375}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+	geo-city: None
+	task-name: meditation
+	todo-list-name: my list
+Current tracker state [{'prev_action_add_task_to_list': 1.0, 'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_askAnotherTaskToAdd': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_smalltalk.confirmation.no': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_createdTodolist.addTask - no-response': 1.0, 'intent_smalltalk.confirmation.no': 1.0}, {'slot_task-name_0': 1.0, 'intent_smalltalk.appraisal.thank_you': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_default_greet' with prob 0.84.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hello Tracker here. How can I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_askAnotherTaskToAdd': 1.0, 'intent_add.task.todo.list': 1.0, 'entity_task-name': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0, 'intent_smalltalk.confirmation.no': 1.0}, {'slot_task-name_0': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_createdTodolist.addTask - no-response': 1.0, 'intent_smalltalk.confirmation.no': 1.0}, {'slot_task-name_0': 1.0, 'intent_smalltalk.appraisal.thank_you': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_action_listen': 1.0}, {'slot_task-name_0': 1.0, 'intent_smalltalk.appraisal.thank_you': 1.0, 'slot_todo-list-name_0': 1.0, 'prev_utter_default_greet': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.91.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+custom_webhook.health                              OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook.receive                             OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Starting new HTTP connection (1): localhost
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'smalltalk.greetings.hello', 'confidence': 0.8100072741508484}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, None, None, {}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '98'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_default_greet' with prob 1.00.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hello Tracker here. How can I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'create a todo list my tasks' with intent '{'name': 'create.todolist', 'confidence': 0.9525229334831238}' and entities '[{'start': 19, 'end': 27, 'value': 'my tasks', 'entity': 'todo-list-name', 'confidence': 0.9841054862281593, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: my tasks
+Current tracker state [None, {}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'prev_action_listen': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_create.todolist': 1.0}]
+There is a memorised next action '91'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_create_todo_list' with prob 1.00.
+Calling action endpoint to run action 'action_create_todo_list'.
+Starting new HTTP connection (1): localhost
+http://localhost:5055 "POST /webhook/ HTTP/1.1" 404 233
+Failed to run custom action 'action_create_todo_list'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_create_todo_list'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 313, in run
+    response.raise_for_status()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 334, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_create_todo_list' ended with events '[]'
+Current tracker state [{}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'prev_action_listen': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_create.todolist': 1.0, 'prev_action_create_todo_list': 1.0}]
+There is a memorised next action '95'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_ask_taskName' with prob 1.00.
+Action 'utter_ask_taskName' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: What tasks shall i add to the my tasks list, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_utter_default_greet': 1.0}, {'entity_todo-list-name': 1.0, 'prev_action_listen': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_create.todolist': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_create.todolist': 1.0, 'prev_action_create_todo_list': 1.0}, {'entity_todo-list-name': 1.0, 'slot_todo-list-name_0': 1.0, 'intent_create.todolist': 1.0, 'prev_utter_ask_taskName': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+custom_webhook.health                              OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook.receive                             POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Starting new HTTP connection (1): localhost
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'Default Welcome Intent', 'confidence': 0.8202558755874634}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.66.
+Action 'action_listen' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'smalltalk.greetings.hello', 'confidence': 0.818411648273468}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'intent_smalltalk.greetings.hello': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.76.
+Action 'action_listen' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None

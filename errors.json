@@ -1,0 +1,668 @@
+{
+    "intent_errors": [
+        {
+            "text": "just going to say hi",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.07992105687317075
+            }
+        },
+        {
+            "text": "heya",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.10158806703421634
+            }
+        },
+        {
+            "text": "hello hi",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.18916344815811315
+            }
+        },
+        {
+            "text": "howdy",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.19910740762397247
+            }
+        },
+        {
+            "text": "hey there",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.16821174241730194
+            }
+        },
+        {
+            "text": "greetings",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.12063849874190141
+            }
+        },
+        {
+            "text": "hey",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.emotions.ha_ha",
+                "confidence": 0.16626882948606478
+            }
+        },
+        {
+            "text": "long time no see",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.09300735795184356
+            }
+        },
+        {
+            "text": "hello",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.emotions.ha_ha",
+                "confidence": 0.15322617721472603
+            }
+        },
+        {
+            "text": "lovely day isn't it",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.07683567430409155
+            }
+        },
+        {
+            "text": "I greet you",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.08184392070970894
+            }
+        },
+        {
+            "text": "hello again",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.17477412721496632
+            }
+        },
+        {
+            "text": "hi",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.emotions.ha_ha",
+                "confidence": 0.17443946779669312
+            }
+        },
+        {
+            "text": "hello there",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.13381177892435067
+            }
+        },
+        {
+            "text": "a good day",
+            "intent": "Default Welcome Intent",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.09128232240473215
+            }
+        },
+        {
+            "text": "eat",
+            "intent": "input.task",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.2062750463678475
+            }
+        },
+        {
+            "text": "you are chatbot",
+            "intent": "smalltalk.agent.chatbot",
+            "intent_prediction": {
+                "name": "smalltalk.agent.clever",
+                "confidence": 0.1058773669377379
+            }
+        },
+        {
+            "text": "what do you do for fun",
+            "intent": "smalltalk.agent.hobby",
+            "intent_prediction": {
+                "name": "smalltalk.user.needs_advice",
+                "confidence": 0.11536318567806023
+            }
+        },
+        {
+            "text": "tell me about your hobby",
+            "intent": "smalltalk.agent.hobby",
+            "intent_prediction": {
+                "name": "smalltalk.agent.acquaintance",
+                "confidence": 0.08934889877453527
+            }
+        },
+        {
+            "text": "you're very hungry",
+            "intent": "smalltalk.agent.hungry",
+            "intent_prediction": {
+                "name": "smalltalk.agent.bad",
+                "confidence": 0.1201893903327283
+            }
+        },
+        {
+            "text": "you are hungry",
+            "intent": "smalltalk.agent.hungry",
+            "intent_prediction": {
+                "name": "smalltalk.agent.bad",
+                "confidence": 0.15652740779204224
+            }
+        },
+        {
+            "text": "you're so hungry",
+            "intent": "smalltalk.agent.hungry",
+            "intent_prediction": {
+                "name": "smalltalk.agent.bad",
+                "confidence": 0.12223589281802215
+            }
+        },
+        {
+            "text": "you're really hungry",
+            "intent": "smalltalk.agent.hungry",
+            "intent_prediction": {
+                "name": "smalltalk.agent.bad",
+                "confidence": 0.12748696909169863
+            }
+        },
+        {
+            "text": "you are my wife",
+            "intent": "smalltalk.agent.marry_user",
+            "intent_prediction": {
+                "name": "smalltalk.agent.my_friend",
+                "confidence": 0.1827479416354996
+            }
+        },
+        {
+            "text": "be my husband",
+            "intent": "smalltalk.agent.marry_user",
+            "intent_prediction": {
+                "name": "smalltalk.agent.my_friend",
+                "confidence": 0.11905014064000358
+            }
+        },
+        {
+            "text": "what is your country",
+            "intent": "smalltalk.agent.origin",
+            "intent_prediction": {
+                "name": "smalltalk.agent.residence",
+                "confidence": 0.1120672009139362
+            }
+        },
+        {
+            "text": "are you ready now",
+            "intent": "smalltalk.agent.ready",
+            "intent_prediction": {
+                "name": "smalltalk.agent.busy",
+                "confidence": 0.13550644111456198
+            }
+        },
+        {
+            "text": "have you been ready",
+            "intent": "smalltalk.agent.ready",
+            "intent_prediction": {
+                "name": "smalltalk.agent.busy",
+                "confidence": 0.12965882638531367
+            }
+        },
+        {
+            "text": "that's not bad",
+            "intent": "smalltalk.appraisal.good",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.bad",
+                "confidence": 0.44023450933804054
+            }
+        },
+        {
+            "text": "not too bad",
+            "intent": "smalltalk.appraisal.good",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.bad",
+                "confidence": 0.5469371140840322
+            }
+        },
+        {
+            "text": "not bad",
+            "intent": "smalltalk.appraisal.good",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.bad",
+                "confidence": 0.48659677745157337
+            }
+        },
+        {
+            "text": "anytime",
+            "intent": "smalltalk.appraisal.welcome",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.hello",
+                "confidence": 0.12949801534594516
+            }
+        },
+        {
+            "text": "you're so welcome",
+            "intent": "smalltalk.appraisal.welcome",
+            "intent_prediction": {
+                "name": "smalltalk.agent.right",
+                "confidence": 0.11132860072354869
+            }
+        },
+        {
+            "text": "anything you want",
+            "intent": "smalltalk.appraisal.welcome",
+            "intent_prediction": {
+                "name": "smalltalk.agent.funny",
+                "confidence": 0.10278289406355871
+            }
+        },
+        {
+            "text": "you're welcome",
+            "intent": "smalltalk.appraisal.welcome",
+            "intent_prediction": {
+                "name": "smalltalk.agent.right",
+                "confidence": 0.12299110659704542
+            }
+        },
+        {
+            "text": "that's correct",
+            "intent": "smalltalk.confirmation.yes",
+            "intent_prediction": {
+                "name": "smalltalk.agent.right",
+                "confidence": 0.2773245309357022
+            }
+        },
+        {
+            "text": "it's fine",
+            "intent": "smalltalk.confirmation.yes",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.good",
+                "confidence": 0.4065879035351709
+            }
+        },
+        {
+            "text": "afternoon",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.goodnight",
+                "confidence": 0.10300109440532396
+            }
+        },
+        {
+            "text": "hello there",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.13381177892435067
+            }
+        },
+        {
+            "text": "hi there",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "Default Welcome Intent",
+                "confidence": 0.14882399846817504
+            }
+        },
+        {
+            "text": "hey",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.emotions.ha_ha",
+                "confidence": 0.16626882948606478
+            }
+        },
+        {
+            "text": "howdy",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.19910740762397247
+            }
+        },
+        {
+            "text": "hi there",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "Default Welcome Intent",
+                "confidence": 0.14882399846817504
+            }
+        },
+        {
+            "text": "hi",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.emotions.ha_ha",
+                "confidence": 0.17443946779669312
+            }
+        },
+        {
+            "text": "hey there",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.16821174241730194
+            }
+        },
+        {
+            "text": "hello again",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.yes",
+                "confidence": 0.17477412721496632
+            }
+        },
+        {
+            "text": "hello",
+            "intent": "smalltalk.greetings.hello",
+            "intent_prediction": {
+                "name": "smalltalk.emotions.ha_ha",
+                "confidence": 0.15322617721472603
+            }
+        },
+        {
+            "text": "good to know each other",
+            "intent": "smalltalk.greetings.nice_to_meet_you",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.good",
+                "confidence": 0.11128772714915405
+            }
+        },
+        {
+            "text": "I'm enraged",
+            "intent": "smalltalk.user.angry",
+            "intent_prediction": {
+                "name": "smalltalk.user.tired",
+                "confidence": 0.08801671559230939
+            }
+        },
+        {
+            "text": "I'm furious",
+            "intent": "smalltalk.user.angry",
+            "intent_prediction": {
+                "name": "smalltalk.user.can_not_sleep",
+                "confidence": 0.07795892271403268
+            }
+        },
+        {
+            "text": "I'm being mad",
+            "intent": "smalltalk.user.angry",
+            "intent_prediction": {
+                "name": "smalltalk.user.sad",
+                "confidence": 0.08429787961151505
+            }
+        },
+        {
+            "text": "I'm here again",
+            "intent": "smalltalk.user.back",
+            "intent_prediction": {
+                "name": "smalltalk.user.here",
+                "confidence": 0.09304719232850892
+            }
+        },
+        {
+            "text": "here I am again",
+            "intent": "smalltalk.user.back",
+            "intent_prediction": {
+                "name": "smalltalk.user.here",
+                "confidence": 0.10004761547702588
+            }
+        },
+        {
+            "text": "that was boring",
+            "intent": "smalltalk.user.bored",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.bad",
+                "confidence": 0.1039257957343462
+            }
+        },
+        {
+            "text": "very boring",
+            "intent": "smalltalk.user.bored",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.good",
+                "confidence": 0.09643139655848984
+            }
+        },
+        {
+            "text": "this is boring",
+            "intent": "smalltalk.user.bored",
+            "intent_prediction": {
+                "name": "smalltalk.appraisal.bad",
+                "confidence": 0.112845030877069
+            }
+        },
+        {
+            "text": "I'm bored",
+            "intent": "smalltalk.user.bored",
+            "intent_prediction": {
+                "name": "smalltalk.user.tired",
+                "confidence": 0.1032239880874507
+            }
+        },
+        {
+            "text": "I have no time",
+            "intent": "smalltalk.user.busy",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.no",
+                "confidence": 0.09650699123238085
+            }
+        },
+        {
+            "text": "I'm overloaded",
+            "intent": "smalltalk.user.busy",
+            "intent_prediction": {
+                "name": "smalltalk.user.tired",
+                "confidence": 0.10130186469111438
+            }
+        },
+        {
+            "text": "I don't have time for this",
+            "intent": "smalltalk.user.busy",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.no",
+                "confidence": 0.12081631475904175
+            }
+        },
+        {
+            "text": "I don't want to talk",
+            "intent": "smalltalk.user.does_not_want_to_talk",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.no",
+                "confidence": 0.09214144986151086
+            }
+        },
+        {
+            "text": "I'm not talking to you anymore",
+            "intent": "smalltalk.user.does_not_want_to_talk",
+            "intent_prediction": {
+                "name": "smalltalk.agent.fired",
+                "confidence": 0.06961126771619709
+            }
+        },
+        {
+            "text": "I am excited",
+            "intent": "smalltalk.user.excited",
+            "intent_prediction": {
+                "name": "smalltalk.user.tired",
+                "confidence": 0.0941399411853655
+            }
+        },
+        {
+            "text": "I'm thrilled",
+            "intent": "smalltalk.user.excited",
+            "intent_prediction": {
+                "name": "smalltalk.user.tired",
+                "confidence": 0.10971083300973343
+            }
+        },
+        {
+            "text": "I'm celebrating my birthday today",
+            "intent": "smalltalk.user.has_birthday",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.how_are_you",
+                "confidence": 0.10018584257607888
+            }
+        },
+        {
+            "text": "I'm already here",
+            "intent": "smalltalk.user.here",
+            "intent_prediction": {
+                "name": "smalltalk.user.back",
+                "confidence": 0.13048715375739484
+            }
+        },
+        {
+            "text": "I am here",
+            "intent": "smalltalk.user.here",
+            "intent_prediction": {
+                "name": "smalltalk.user.back",
+                "confidence": 0.20392472457600253
+            }
+        },
+        {
+            "text": "here I am",
+            "intent": "smalltalk.user.here",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.no",
+                "confidence": 0.06993446881762622
+            }
+        },
+        {
+            "text": "I've missed you",
+            "intent": "smalltalk.user.misses_agent",
+            "intent_prediction": {
+                "name": "smalltalk.agent.fired",
+                "confidence": 0.08740334945168739
+            }
+        },
+        {
+            "text": "I'm having a bad day",
+            "intent": "smalltalk.user.sad",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.how_are_you",
+                "confidence": 0.08574728359550429
+            }
+        },
+        {
+            "text": "I want to cry",
+            "intent": "smalltalk.user.sad",
+            "intent_prediction": {
+                "name": "smalltalk.user.wants_to_talk",
+                "confidence": 0.06843077222566607
+            }
+        },
+        {
+            "text": "I am depressed",
+            "intent": "smalltalk.user.sad",
+            "intent_prediction": {
+                "name": "smalltalk.user.tired",
+                "confidence": 0.10253501943904471
+            }
+        },
+        {
+            "text": "I'm sleeping",
+            "intent": "smalltalk.user.sleepy",
+            "intent_prediction": {
+                "name": "smalltalk.user.joking",
+                "confidence": 0.0994737771895898
+            }
+        },
+        {
+            "text": "I'm falling asleep",
+            "intent": "smalltalk.user.sleepy",
+            "intent_prediction": {
+                "name": "smalltalk.user.joking",
+                "confidence": 0.05449142877107574
+            }
+        },
+        {
+            "text": "I'm falling asleep on my feet",
+            "intent": "smalltalk.user.sleepy",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.how_are_you",
+                "confidence": 0.0447415802680337
+            }
+        },
+        {
+            "text": "I am sleepy",
+            "intent": "smalltalk.user.sleepy",
+            "intent_prediction": {
+                "name": "smalltalk.user.sad",
+                "confidence": 0.0561088689775228
+            }
+        },
+        {
+            "text": "I want to sleep",
+            "intent": "smalltalk.user.sleepy",
+            "intent_prediction": {
+                "name": "smalltalk.user.wants_to_talk",
+                "confidence": 0.04850101790803324
+            }
+        },
+        {
+            "text": "let me test you",
+            "intent": "smalltalk.user.testing_agent",
+            "intent_prediction": {
+                "name": "smalltalk.agent.can_you_help",
+                "confidence": 0.09797379745531978
+            }
+        },
+        {
+            "text": "I'm waiting",
+            "intent": "smalltalk.user.waits",
+            "intent_prediction": {
+                "name": "smalltalk.user.joking",
+                "confidence": 0.08293941582790729
+            }
+        },
+        {
+            "text": "still waiting",
+            "intent": "smalltalk.user.waits",
+            "intent_prediction": {
+                "name": "smalltalk.dialog.i_do_not_care",
+                "confidence": 0.06606221346297232
+            }
+        },
+        {
+            "text": "I can't wait anymore",
+            "intent": "smalltalk.user.waits",
+            "intent_prediction": {
+                "name": "smalltalk.confirmation.no",
+                "confidence": 0.12124352667930983
+            }
+        },
+        {
+            "text": "how long do I have to wait",
+            "intent": "smalltalk.user.waits",
+            "intent_prediction": {
+                "name": "smalltalk.agent.busy",
+                "confidence": 0.05610910966901024
+            }
+        },
+        {
+            "text": "I hope to see you again",
+            "intent": "smalltalk.user.wants_to_see_agent_again",
+            "intent_prediction": {
+                "name": "smalltalk.greetings.bye",
+                "confidence": 0.08424999726618183
+            }
+        }
+    ]
+}

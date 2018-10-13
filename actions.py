@@ -22,7 +22,7 @@ class ActionWeather(Action):
         api_key = "ed0b641d57bb4629a5c140954181509"
         client = ApixuClient(api_key)
 
-        loc = tracker.get_slot("location")
+        loc = tracker.get_slot("geo-city")
         current = client.getCurrentWeather(q=loc)
 
         city = current["location"]["name"]
@@ -36,7 +36,7 @@ class ActionWeather(Action):
         )
 
         dispatcher.utter_message(response)
-        return [SlotSet("location", loc)]
+        return [SlotSet("geo-city", loc)]
 
 
 class ActionCreateTodoList(Action):
@@ -45,9 +45,9 @@ class ActionCreateTodoList(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-        listname = tracker.get_slot("tolist-name")
+        listname = tracker.get_slot("todo-list-name")
 
-        url = "http://localhost:8080/api/v1/createTodoList"
+        url = "http://tracker-app-tracker-api.7e14.starter-us-west-2.openshiftapps.com/api/v1/createTodoList"
         response = requests.get(url, params={"listName": listname})
 
         if response.status_code != 200:
@@ -66,9 +66,9 @@ class ActionAddTaskToList(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-        listname = tracker.get_slot("tolist-name")
-        taskName = tracker.get_slot("todolist-task-name")
-        url = "http://localhost:8080/api/v1/addTaskToList"
+        listname = tracker.get_slot("todo-list-name")
+        taskName = tracker.get_slot("task-name")
+        url = "http://tracker-app-tracker-api.7e14.starter-us-west-2.openshiftapps.com/api/v1/addTaskToList"
         now = datetime.datetime.now()
 
         payload = {
@@ -93,8 +93,8 @@ class ActionRetrieveTodoList(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-        listname = tracker.get_slot("tolist-name")
-        url = "http://localhost:8080/api/v1/retrieveTodoList"
+        listname = tracker.get_slot("todo-list-name")
+        url = "http://tracker-app-tracker-api.7e14.starter-us-west-2.openshiftapps.com/api/v1/retrieveTodoList"
 
         response = requests.get(url, params={"listName": listname})
 
