@@ -81,6 +81,84 @@
     - action_add_task_to_list
     - action_restart
 
+## Generated Story 3320800183399695936
+* inform
+    - utter_ask_location
+* inform{"geo-city": "italy"}
+    - slot{"geo-city": "italy"}
+    - action_weather
+    - slot{"geo-city": "italy"}
+* smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    - export
+## Generated Story -3351152636827275381
+* inform[geo-city=London]
+    - slot{"geo-city": "London"}
+    - action_weather
+* smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    - export
+## Generated Story 8921121480760034253
+* smalltalk.greetings.hello
+    - utter_smalltalk.greetings.hello
+* inform
+    - utter_ask_location
+* inform[geo-city=London]
+    - slot{"geo-city": "London"}
+    - action_weather
+* smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    - export
+## Generated Story -5208991511085841103
+    - slot{"geo-city": "London"}
+    - action_weather
+* smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    - export
+## Generated Story -5208991511085841103
+    - slot{"geo-city": "London"}
+    - action_weather
+* smalltalk.greetings.bye
+    - utter_smalltalk.greetings.bye
+    - export
+
+## story_001
+* inform
+   - utter_ask_location
+* inform[geo-city=London]
+   - slot{"geo-city": "London"}
+   - action_weather
+* smalltalk.greetings.bye
+   - utter_smalltalk.greetings.bye
+## story_002
+* inform[geo-city=Paris]
+   - slot{"geo-city": "Paris"}
+   - action_weather
+* smalltalk.greetings.bye
+   - utter_smalltalk.greetings.bye 
+## story_003
+* inform
+   - utter_ask_location
+* inform[geo-city=Vilnius]
+   - slot{"geo-city": "Vilnius"}
+   - action_weather
+* smalltalk.greetings.bye
+   - utter_smalltalk.greetings.bye
+## story_004
+* inform[geo-city=Italy]
+   - slot{"geo-city": "Italy"}
+   - action_weather
+* smalltalk.greetings.bye
+   - utter_smalltalk.greetings.bye 
+## story_005
+* inform
+   - utter_ask_location
+* inform[geo-city=Lithuania]
+   - slot{"geo-city": "Lithuania"}
+   - action_weather
+* smalltalk.greetings.bye
+   - utter_smalltalk.greetings.bye
+
 ## SMALL TALK STORY 13
  * smalltalk.agent.acquaintance
     - utter_smalltalk.agent.acquaintance

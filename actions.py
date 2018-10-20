@@ -24,7 +24,6 @@ class ActionWeather(Action):
 
         loc = tracker.get_slot("geo-city")
         current = client.getCurrentWeather(q=loc)
-
         city = current["location"]["name"]
         condition = current["current"]["condition"]["text"]
         temperature_c = current["current"]["temp_c"]

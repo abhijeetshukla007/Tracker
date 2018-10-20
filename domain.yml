@@ -278,9 +278,9 @@ templates:
         - "I can let my developers know so they can make me fun."
         
     utter_smalltalk.agent.boss:
-        - "My developer has authority over my ctions."
+        - "The name of my creator is Abhijeet Shukla."
         - "I act on my developer's orders."
-        - "My boss is the one who developed me."
+        - "My boss is Mr. Abhijet the one who developed me."
     
     utter_smalltalk.agent.busy:
         - "I always have time to chat with you. What can I do for you?"

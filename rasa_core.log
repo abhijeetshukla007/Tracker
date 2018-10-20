@@ -321,3 +321,935 @@ Predicted next action using policy_1_KerasPolicy
 Predicted next action 'action_listen' with prob 0.76.
 Action 'action_listen' ended with events '[]'
 http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook.health                              HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook.receive                             POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Starting new HTTP connection (1): localhost
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'Default Welcome Intent', 'confidence': 0.7959890365600586}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is a memorised next action '98'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_default_greet' with prob 1.00.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hello Tracker here. How can I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'Default Welcome Intent', 'confidence': 0.7959890365600586}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_default_greet' with prob 1.00.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hello Tracker here. How can I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'cls' with intent '{'name': None, 'confidence': 0.0}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0}]
+There is no memorised next action
+NLU confidence 0.0 is lower than NLU threshold 0.3. Predicting fallback action: action_default_fallback
+Predicted next action using policy_2_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Starting new HTTP connection (1): localhost
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'Default Welcome Intent', 'confidence': 0.7959890365600586}' and entities '[]'
+Logged UserUtterance - tracker now has 15 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_default_greet' with prob 1.00.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hello Tracker here. How can I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 308, in receive
+    on_new_message(UserMessage(text, collector, sender_id))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\agent.py", line 305, in handle_message
+    return processor.handle_message(message)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 77, in handle_message
+    tracker = self.log_message(message)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 121, in log_message
+    self._handle_message_with_tracker(message, tracker)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 241, in _handle_message_with_tracker
+    parse_data = self._parse_message(message)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 217, in _parse_message
+    if (message.text.startswith(INTENT_MESSAGE_PREFIX) or
+AttributeError: 'NoneType' object has no attribute 'startswith'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 308, in receive
+    on_new_message(UserMessage(text, collector, sender_id))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\agent.py", line 305, in handle_message
+    return processor.handle_message(message)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 77, in handle_message
+    tracker = self.log_message(message)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 121, in log_message
+    self._handle_message_with_tracker(message, tracker)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 241, in _handle_message_with_tracker
+    parse_data = self._parse_message(message)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 217, in _parse_message
+    if (message.text.startswith(INTENT_MESSAGE_PREFIX) or
+AttributeError: 'NoneType' object has no attribute 'startswith'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+custom_webhook.health                              OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook.receive                             OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Starting new HTTP connection (1): localhost
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'Default Welcome Intent', 'confidence': 0.7959890365600586}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	geo-city: None
+	task-name: None
+	todo-list-name: None
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is a memorised next action '98'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_default_greet' with prob 1.00.
+Action 'utter_default_greet' ended with events '[]'
+http://localhost:5005 "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 None
+Bot utterance 'BotUttered(text: Hello Tracker here. How can I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_Default Welcome Intent': 1.0}, {'prev_utter_default_greet': 1.0, 'intent_Default Welcome Intent': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 313, in run
+    response.raise_for_status()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 334, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 313, in run
+    response.raise_for_status()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 334, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 312, in run
+    response.raise_for_status()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 338, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Restoring parameters from models/tracker/trackermodel\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\abhij\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Failed to run custom action 'action_weather'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011A130AFCF8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\abhij\Anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\abhij\Anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\abhij\Anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\abhij\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\abhij\Anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000011A130AFCF8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011A130AFCF8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 311, in run
+    json=json, method="post", timeout=DEFAULT_REQUEST_TIMEOUT)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\utils.py", line 665, in request
+    **kwargs)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011A130AFCF8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 338, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 323, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 312, in run
+    response.raise_for_status()
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\requests\models.py", line 935, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\processor.py", line 338, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\abhij\Anaconda3\lib\site-packages\rasa_core\actions\action.py", line 333, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.

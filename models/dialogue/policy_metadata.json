@@ -1,0 +1,244 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "task-name",
+        "geo-city",
+        "todo-list-name"
+      ]
+    },
+    "utter_smalltalk.user.has_birthday": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.greetings.hello": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "action_restart": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.sleepy": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "null": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.greetings.bye": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.emotions.ha_ha": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.greetings.goodevening": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.going_to_bed": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.good": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.busy": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.needs_advice": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.looks_like": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.boss": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.funny": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.residence": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.my_friend": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.good": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.bored": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.appraisal.no_problem": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.testing_agent": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.appraisal.welcome": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.sad": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.greetings.nice_to_talk_to_you": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.here": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.wants_to_see_agent_again": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.ready": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.greetings.goodnight": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.annoying": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.right": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.wants_to_talk": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.hungry": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.lonely": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.greetings.whatsup": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.origin": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.likes_agent": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.dialog.what_do_you_mean": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.talk_to_me": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.occupation": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.confirmation.no": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.fired": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.age": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.agent.there": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_smalltalk.user.loves_agent": {
+      "slots": [
+        "geo-city"
+      ]
+    }
+  },
+  "rasa_core": "0.11.1",
+  "python": "3.6.5",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ]
+}

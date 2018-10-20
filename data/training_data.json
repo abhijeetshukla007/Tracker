@@ -8678,6 +8678,90 @@
             "entity": "task-name"
           }
         ]
+      },
+      {
+        "text": "weather in Dubai",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Dubai",
+            "entity": "geo-city"
+          }
+        ]
+      },
+      {
+        "text": "How's the weather in New York",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "New York",
+            "entity": "geo-city"
+          }
+        ]
+      },
+      {
+        "text": "how's the weather of Columbo",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Columbo",
+            "entity": "geo-city"
+          }
+        ]
+      },
+      {
+        "text": "weather Chennai",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "Chennai",
+            "entity": "geo-city"
+          }
+        ]
+      },
+      {
+        "text": "Dehradun's weather",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Dehradun",
+            "entity": "geo-city"
+          }
+        ]
+      },
+      {
+        "text": "current weather of Faizabad",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Faizabad",
+            "entity": "geo-city"
+          }
+        ]
+      },
+      {
+        "text": "tell me how's the current weather in Bangalore",
+        "intent": "weather.forecast",
+        "entities": [
+          {
+            "start": 37,
+            "end": 46,
+            "value": "Bangalore",
+            "entity": "geo-city"
+          }
+        ]
       }
     ],
     "regex_features": [],
